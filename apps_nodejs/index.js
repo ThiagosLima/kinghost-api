@@ -13,10 +13,10 @@ const stories = require("./routes/stories");
 const app = express();
 
 // Validate jwt
-if (!process.env.JWT_PRIVATE_KEY) {
-  console.error("FATAL ERROR: JWT_PRIVATE_KEY is not defined.");
-  process.exit(1);
-}
+// if (!process.env.JWT_PRIVATE_KEY) {
+//   console.error("FATAL ERROR: JWT_PRIVATE_KEY is not defined.");
+//   process.exit(1);
+// }
 
 // Connect to the database
 mongoose
